@@ -1,0 +1,3 @@
+module.exports=[52759,a=>{"use strict";var b=a.i(15477),c=a.i(47519),d=a.i(82383),e=a.i(63183);function f(){let{user:a,isLoading:f,isAuthenticated:g}=(0,e.useAuth)(),h=(0,d.useRouter)();return(0,c.useEffect)(()=>{if(!f)if(g){if(a)switch(a.role){case"admin":h.push("/admin");break;case"employee":h.push("/employee");break;case"client":h.push("/client")}}else h.push("/auth")},[f,g,a,h]),(0,b.jsx)("div",{className:"min-h-screen flex items-center justify-center bg-green-50",children:(0,b.jsx)("div",{className:"animate-spin w-8 h-8 border-4 border-[#568a56] border-t-transparent rounded-full"})})}a.s(["default",()=>f])}];
+
+//# sourceMappingURL=sdfg_app_dashboard_page_tsx_ba78888f._.js.map

@@ -1,0 +1,20 @@
+[00:00:00.921] Server  LOG      ✓ Ready in 638ms
+[00:00:07.718] Server  LOG      ○ Compiling / ...
+[00:00:08.190] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:08.620] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.013] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.013] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.013] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1768338832156}
+[00:00:09.013] Browser LOG     [API] /cart/user/1 - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:13.789] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:13.789] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1768338836978}
+[00:00:15.888] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/calendar color: rgb(120, 120, 120) color: inherit {"dp":"/admin/calendar","o":"http://localhost:3000/admin/calendar","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1768338838938}
+[00:00:15.888] Browser LOG     [API] /calendar/events/month/2026/1 - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:15.888] Browser LOG     [API] /calendar/events/month/2026/1 - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:15.888] Browser LOG     [API] /calendar/summary - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:15.888] Browser LOG     [API] /calendar/summary - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:18.528] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:18.528] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:32.540] Browser LOG     [API] /calendar/events - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:32.540] Browser LOG     [API] /calendar/events/month/2026/1 - Status: 200, Content-Type: application/json; charset=utf-8
+[00:00:32.540] Browser LOG     [API] /calendar/summary - Status: 200, Content-Type: application/json; charset=utf-8

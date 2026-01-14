@@ -1,0 +1,222 @@
+{
+  "app": {
+    "[project]/sdfg/app/_not-found/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/account/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/calendar/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/dashboard/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/employees/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/flowers/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/inventory/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/login/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/orders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/preorders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/products/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/shifts/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/trucks/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/admin/users/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/auth/login/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/auth/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/auth/sign-up-success/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/auth/sign-up/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/cart/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/catalog/[id]/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/catalog/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/checkout/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/client/new-order/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/client/orders/[id]/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/client/orders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/client/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/client/preorders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/client/profile/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/dashboard/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/delivery/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/dashboard/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/deliveries/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/flowers/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/login/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/orders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/preorders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/employee/products/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/order-confirmation/[id]/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/preorders/checkout/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ],
+    "[project]/sdfg/app/preorders/page": [
+      "static/media/7178b3e590c64307-s.p.b97b3418.woff2",
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

@@ -7,19 +7,18 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// PostgreSQL connection pool
+// PostgreSQL connection pool через DATABASE_URL
 const pool = new Pool({
-  host: process.env.DB_HOST,
-  port: process.env.DB_PORT,
-  database: process.env.DB_NAME,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false, // обязательно для Railway
+  },
 });
 
-// Initialize logger
+// Инициализация логгера
 const logger = new Logger(pool);
 
-// Test database connection
+// Тест подключения к базе
 pool.query("SELECT NOW()", (err, res) => {
   if (err) {
     console.error("❌ Database connection error:", err.message);
@@ -45,7 +44,7 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Test route
+// Тестовый маршрут
 app.get("/", (req, res) => {
   res.json({
     message: "Green Flowers API Server",
@@ -62,17 +61,17 @@ app.get("/", (req, res) => {
   });
 });
 
-// Serve test HTML page
+// Тестовая страница
 app.get("/test", (req, res) => {
   res.sendFile(__dirname + "/test-registration.html");
 });
 
-// API routes
+// API маршруты
 app.get("/api/health", (req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
-// Test database query
+// Тест запроса к базе
 app.get("/api/db-test", async (req, res) => {
   try {
     const result = await pool.query(
@@ -89,7 +88,7 @@ app.get("/api/db-test", async (req, res) => {
   }
 });
 
-// Import routes
+// Импорт маршрутов
 const usersRoutes = require("./routes/users")(pool, logger);
 const productsRoutes = require("./routes/products")(pool, logger);
 const ordersRoutes = require("./routes/orders")(pool, logger);
@@ -100,13 +99,13 @@ const cartRoutes = require("./routes/cart")(pool);
 const inventoryRoutes = require("./routes/inventory")(pool, logger);
 const shiftsRoutes = require("./routes/shifts")(pool, logger);
 const calendarRoutes = require("./routes/calendar")(pool, logger);
+
 let trucksRoutes;
 try {
   trucksRoutes = require("./routes/trucks")(pool, logger);
   console.log("✅ Trucks route loaded successfully");
 } catch (error) {
   console.error("❌ Error loading trucks route:", error.message);
-  // Fallback: create a simple error route
   trucksRoutes = express.Router();
   trucksRoutes.get("*", (req, res) => {
     res.status(500).json({
@@ -116,7 +115,7 @@ try {
   });
 }
 
-// Use routes
+// Используем маршруты
 app.use("/api/users", usersRoutes);
 app.use("/api/products", productsRoutes);
 app.use("/api/orders", ordersRoutes);
@@ -129,13 +128,13 @@ app.use("/api/shifts", shiftsRoutes);
 app.use("/api/calendar", calendarRoutes);
 app.use("/api/trucks", trucksRoutes);
 
-// Global error handler
+// Глобальный обработчик ошибок
 app.use((err, req, res, next) => {
   console.error("Global error:", err);
   res.status(500).json({ success: false, error: err.message });
 });
 
-// Handle uncaught exceptions
+// Обработка uncaught exceptions и unhandled rejections
 process.on("uncaughtException", (err) => {
   console.error("Uncaught Exception:", err);
 });
@@ -144,7 +143,7 @@ process.on("unhandledRejection", (reason, promise) => {
   console.error("Unhandled Rejection at:", promise, "reason:", reason);
 });
 
-// Start server
+// Старт сервера
 app.listen(PORT, () => {
   console.log(`🌸 Server is running on http://localhost:${PORT}`);
 });

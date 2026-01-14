@@ -1,0 +1,6 @@
+# Игнорируем папку node_modules
+node_modules/
+
+# macOS системные файлы
+.DS_Store
+

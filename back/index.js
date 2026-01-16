@@ -129,17 +129,17 @@ try {
 
 // Используем маршруты
 
-app.use("/api/users", usersRoutes);
-app.use("/api/products", productsRoutes);
-app.use("/api/orders", ordersRoutes);
-app.use("/api/logs", logsRoutes);
-app.use("/api/flowers", flowersRoutes);
-app.use("/api/preorders", preordersRoutes);
-app.use("/api/cart", cartRoutes);
-app.use("/api/inventory", inventoryRoutes);
-app.use("/api/shifts", shiftsRoutes);
-app.use("/api/calendar", calendarRoutes);
-app.use("/api/trucks", trucksRoutes);
+app.use("/users", usersRoutes);
+app.use("/products", productsRoutes);
+app.use("/orders", ordersRoutes);
+app.use("/logs", logsRoutes);
+app.use("/flowers", flowersRoutes);
+app.use("/preorders", preordersRoutes);
+app.use("/cart", cartRoutes);
+app.use("/inventory", inventoryRoutes);
+app.use("/shifts", shiftsRoutes);
+app.use("/calendar", calendarRoutes);
+app.use("/trucks", trucksRoutes);
 
 // Глобальный обработчик ошибок
 app.use((err, req, res, next) => {

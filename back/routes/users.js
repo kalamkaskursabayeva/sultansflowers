@@ -6,7 +6,7 @@ module.exports = (pool, logger) => {
   // ============ AUTHENTICATION ============
   
   // Регистрация нового пользователя (только role: user)
-  router.post('/register', async (req, res) => {
+  router.post('/users/register', async (req, res) => {
     const { email, password, name, phone, city, company_name } = req.body;
     
     try {

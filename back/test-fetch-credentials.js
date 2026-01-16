@@ -11,7 +11,7 @@ const testData = {
 console.log("📤 Testing fetch with credentials...");
 console.log("Data:", JSON.stringify(testData, null, 2));
 
-fetch("http://localhost:5000/api/trucks", {
+fetch("https://sultansflowers-production.up.railway.app/trucks", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",

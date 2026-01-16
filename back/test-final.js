@@ -10,7 +10,7 @@ const testData = {
 };
 
 console.log("📤 Attempting to create truck via fetch...\n");
-console.log("Request URL: http://localhost:5000/api/trucks");
+console.log("Request URL: https://sultansflowers-production.up.railway.app/api/trucks");
 console.log("Request Method: POST");
 console.log("Request Body:", JSON.stringify(testData, null, 2));
 

@@ -35,16 +35,12 @@ const allowedOrigins = (process.env.CORS_ORIGIN || "")
 
 if (allowedOrigins.length === 0) {
   allowedOrigins.push(
-    "https://zestful-happiness-production-9f5b.up.railway.app",
-    "http://localhost:3000"
+    "https://zestful-happiness-production-9f5b.up.railway.app"
   );
 }
 
 app.use(
   cors({
-    origin: [
-      "https://zestful-happiness-production-9f5b.up.railway.app"
-    ],
     origin: (origin, callback) => {
       if (!origin || allowedOrigins.includes(origin)) {
         return callback(null, true);
@@ -56,6 +52,7 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -131,7 +128,12 @@ try {
 }
 
 // Используем маршруты
-app.use("/api/users", usersRoutes);
+fetch("https://zestful-happiness-production-9f5b.up.railway.app/api/users/register", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ username: "test", password: "123" }),
+});
+
 app.use("/api/products", productsRoutes);
 app.use("/api/orders", ordersRoutes);
 app.use("/api/logs", logsRoutes);

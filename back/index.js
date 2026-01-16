@@ -31,10 +31,7 @@ pool.query("SELECT NOW()", (err, res) => {
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "http://localhost:3001",
-      "http://26.161.253.187:3000",
-      "http://26.161.253.187:3001",
+      "https://zestful-happiness-production-9f5b.up.railway.app"
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],

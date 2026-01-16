@@ -128,12 +128,8 @@ try {
 }
 
 // Используем маршруты
-fetch("https://zestful-happiness-production-9f5b.up.railway.app/api/users/register", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ username: "test", password: "123" }),
-});
 
+app.use("/api/users", usersRoutes);
 app.use("/api/products", productsRoutes);
 app.use("/api/orders", ordersRoutes);
 app.use("/api/logs", logsRoutes);

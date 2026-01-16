@@ -63,11 +63,11 @@ app.get("/", (req, res) => {
     status: "running",
     version: "1.0.0",
     endpoints: {
-      health: "/api/health",
-      dbTest: "/api/db-test",
-      register: "POST /api/users/register",
-      login: "POST /api/users/login",
-      products: "/api/products",
+      health: "/health",
+      dbTest: "/db-test",
+      register: "/users/register",
+      login: "/users/login",
+      products: "/products",
       testPage: "/test",
     },
   });

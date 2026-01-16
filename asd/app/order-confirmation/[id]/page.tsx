@@ -22,7 +22,7 @@ export default function OrderConfirmation({ params }: { params: Promise<{ id: st
 
     const fetchOrder = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/orders/${orderId}`)
+        const response = await fetch(`https://sultansflowers-production.up.railway.app/orders/${orderId}`)
         const data = await response.json()
         
         if (data.success) {

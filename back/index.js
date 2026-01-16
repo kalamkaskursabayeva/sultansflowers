@@ -28,11 +28,29 @@ pool.query("SELECT NOW()", (err, res) => {
 });
 
 // Middleware
+const allowedOrigins = (process.env.CORS_ORIGIN || "")
+  .split(",")
+  .map((origin) => origin.trim())
+  .filter(Boolean);
+
+if (allowedOrigins.length === 0) {
+  allowedOrigins.push(
+    "https://zestful-happiness-production-9f5b.up.railway.app",
+    "http://localhost:3000"
+  );
+}
+
 app.use(
   cors({
     origin: [
       "https://zestful-happiness-production-9f5b.up.railway.app"
     ],
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      return callback(new Error("Not allowed by CORS"));
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
